@@ -1,13 +1,26 @@
-* {
+body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(165,42,42,0.3);
 }
 
 .title {
     text-align: center;
+    padding: 8px 16px;
     font-size: 38px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aqua;
     background-color: brown;
+    border: 5px solid aqua;
+}
+
+div {
+    width: 800px;
+    background-color:aqua;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid brown;
 }
 
 h3 {
@@ -18,10 +31,23 @@ h3 {
 li {
     color: pink;
     font-size: medium;
+    margin: 20px;
 }
 
 p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.body-text {color: black;}
+.body-text {
+    color: black;
+    border: 2px solid currentColor;
+    text-align: center;
+    width: 400px;
+    padding: 8px 16px;
+    margin: 0 auto;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
